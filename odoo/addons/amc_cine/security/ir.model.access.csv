@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_amc_cine_amc_cine,amc_cine.amc_cine,model_amc_cine_amc_cine,base.group_user,1,1,1,1
