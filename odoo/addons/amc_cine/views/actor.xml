@@ -1,0 +1,33 @@
+<odoo>
+  <data>
+    <record id="amc_cine.actor_form" model="ir.ui.view">
+      <field name="name">amc_cine.actor.form</field>
+      <field name="model">amc_cine.actor</field>
+      <field name="arch" type="xml">
+        <form string="Actor">
+          <sheet>
+            <group>
+              <field name="name" />
+              <field name="edad" />
+              <field name="sexo" />
+              <field name="fechaNacimiento" />
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record id="amc_cine.actor_tree" model="ir.ui.view">
+      <field name="name">amc_cine.actor.tree</field>
+      <field name="model">amc_cine.actor</field>
+      <field name="arch" type="xml">
+        <tree string="Actor">
+          <field name="name" />
+          <field name="edad" />
+          <field name="sexo" />
+          <field name="fechaNacimiento" />
+        </tree>
+      </field>
+    </record>
+  </data>
+</odoo>

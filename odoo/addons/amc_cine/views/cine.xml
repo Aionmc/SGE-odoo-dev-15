@@ -1,0 +1,31 @@
+<odoo>
+  <data>
+    <record id="amc_cine.cine_form" model="ir.ui.view">
+      <field name="name">amc_cine.cine.form</field>
+      <field name="model">amc_cine.cine</field>
+      <field name="arch" type="xml">
+        <form string="Cine">
+          <sheet>
+            <group>
+              <field name="name" />
+              <field name="valoracion" />
+              <field name="localizacion" />
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record id="amc_cine.cine_tree" model="ir.ui.view">
+      <field name="name">amc_cine.cine.tree</field>
+      <field name="model">amc_cine.cine</field>
+      <field name="arch" type="xml">
+        <tree string="Cine">
+          <field name="name" />
+          <field name="valoracion" />
+          <field name="localizacion" />
+        </tree>
+      </field>
+    </record>
+  </data>
+</odoo>

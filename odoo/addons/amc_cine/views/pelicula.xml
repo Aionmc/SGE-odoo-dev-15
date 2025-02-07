@@ -1,0 +1,33 @@
+<odoo>
+  <data>
+    <record id="amc_cine.pelicula_form" model="ir.ui.view">
+      <field name="name">amc_cine.pelicula.form</field>
+      <field name="model">amc_cine.pelicula</field>
+      <field name="arch" type="xml">
+        <form string="Película">
+          <sheet>
+            <group>
+              <field name="name" />
+              <field name="sinopsis" />
+              <field name="minutos" />
+              <field name="precio" />
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record id="amc_cine.pelicula_tree" model="ir.ui.view">
+      <field name="name">amc_cine.pelicula.tree</field>
+      <field name="model">amc_cine.pelicula</field>
+      <field name="arch" type="xml">
+        <tree string="Película">
+          <field name="name" />
+          <field name="sinopsis" />
+          <field name="minutos" />
+          <field name="precio" />
+        </tree>
+      </field>
+    </record>
+  </data>
+</odoo>

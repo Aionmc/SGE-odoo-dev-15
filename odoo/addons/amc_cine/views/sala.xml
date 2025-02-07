@@ -1,0 +1,33 @@
+<odoo>
+  <data>
+    <record id="amc_cine.sala_form" model="ir.ui.view">
+      <field name="name">amc_cine.sala.form</field>
+      <field name="model">amc_cine.sala</field>
+      <field name="arch" type="xml">
+        <form string="Sala">
+          <sheet>
+            <group>
+              <field name="numero" />
+              <field name="filas" />
+              <field name="butacas" />
+              <field name="inclusividad" />
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record id="amc_cine.sala_tree" model="ir.ui.view">
+      <field name="name">amc_cine.sala.tree</field>
+      <field name="model">amc_cine.sala</field>
+      <field name="arch" type="xml">
+        <tree string="Sala">
+          <field name="numero" />
+          <field name="filas" />
+          <field name="butacas" />
+          <field name="inclusividad" />
+        </tree>
+      </field>
+    </record>
+  </data>
+</odoo>
