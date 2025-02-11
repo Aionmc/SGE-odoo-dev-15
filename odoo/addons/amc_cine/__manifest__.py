@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "amc_cine",
+    'name': "Cine",
 
     'summary': "Short (1 phrase/line) summary of the module's purpose",
 
@@ -27,7 +27,6 @@ Long description of module's purpose
         'views/sala.xml',
         'views/pelicula.xml',
         'views/actor.xml',
-        'views/templates.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

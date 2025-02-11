@@ -9,7 +9,7 @@
             <group>
               <field name="name" />
               <field name="edad" />
-              <field name="sexo" />
+              <field name="genero" />
               <field name="fechaNacimiento" />
             </group>
           </sheet>
@@ -24,7 +24,7 @@
         <tree string="Actor">
           <field name="name" />
           <field name="edad" />
-          <field name="sexo" />
+          <field name="genero" />
           <field name="fechaNacimiento" />
         </tree>
       </field>

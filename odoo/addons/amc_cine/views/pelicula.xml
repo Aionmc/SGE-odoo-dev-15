@@ -11,6 +11,7 @@
               <field name="sinopsis" />
               <field name="minutos" />
               <field name="precio" />
+              <field name="cartel" />
             </group>
           </sheet>
         </form>
@@ -26,6 +27,7 @@
           <field name="sinopsis" />
           <field name="minutos" />
           <field name="precio" />
+          <field name="cartel" />
         </tree>
       </field>
     </record>

@@ -1,30 +1,51 @@
 <odoo>
     <data>
-<!--
-          <record id="object0" model="amc_cine.amc_cine">
-            <field name="name">Object 0</field>
-            <field name="value">0</field>
+          <record id="amc_cine.cine" model="amc_cine.cine">
+            <field name="name">Kinepolis</field>
+            <field name="valoracion">5</field>
+            <field name="localizacion">C. Edgar Neville, s/n, 28223 Madrid</field>
           </record>
 
-          <record id="object1" model="amc_cine.amc_cine">
-            <field name="name">Object 1</field>
-            <field name="value">10</field>
+          <record id="amc_cine_sala1" model="amc_cine.sala">
+            <field name="numero">1</field>
+            <field name="filas">20</field>
+            <field name="butacas">152</field>
+            <field name="inclusividad" eval="True"/>
           </record>
 
-          <record id="object2" model="amc_cine.amc_cine">
-            <field name="name">Object 2</field>
-            <field name="value">20</field>
+          <record id="amc_cine_sala2" model="amc_cine.sala">
+            <field name="numero">2</field>
+            <field name="filas">15</field>
+            <field name="butacas">100</field>
+            <field name="inclusividad" eval="False"/>
           </record>
 
-          <record id="object3" model="amc_cine.amc_cine">
-            <field name="name">Object 3</field>
-            <field name="value">30</field>
+          <record id="amc_cine_pelicula1" model="amc_cine.pelicula">
+            <field name="name">Interstellar</field>
+            <field name="sinopsis">Un grupo de científicos y exploradores, encabezados por Cooper, se embarcan en un viaje espacial para encontrar un lugar con las condiciones necesarias para reemplazar a la Tierra y comenzar una nueva vida allí.</field>
+            <field name="minutos">169</field>
+            <field name="precio">9.5</field>
           </record>
 
-          <record id="object4" model="amc_cine.amc_cine">
-            <field name="name">Object 4</field>
-            <field name="value">40</field>
+          <record id="amc_cine_pelicula2" model="amc_cine.pelicula">
+            <field name="name">El castillo ambulante</field>
+            <field name="sinopsis">Sophie, una joven de 18 años, trabaja sin descanso en la tienda de sombreros de su difunto padre. En uno de sus poco frecuentes paseos por la ciudad, Sophie conoce al mago Howl, un joven con poderes extraordinarios y extremadamente seductor.</field>
+            <field name="minutos">119</field>
+            <field name="precio">7.8</field>
           </record>
--->
+
+          <record id="amc_cine_actor1" model="amc_cine.actor">
+            <field name="name">Keanu Reeves</field>
+            <field name="edad">60</field>
+            <field name="genero">0</field>
+            <field name="fechaNacimiento">1964-09-02</field>
+          </record>
+
+          <record id="amc_cine_actor2" model="amc_cine.actor">
+            <field name="name">Gal Gadot</field>
+            <field name="edad">39</field>
+            <field name="genero">1</field>
+            <field name="fechaNacimiento">1985-04-30</field>
+          </record>
     </data>
 </odoo>

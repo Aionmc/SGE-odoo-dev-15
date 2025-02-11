@@ -10,3 +10,4 @@ class Pelicula(models.Model):
     sinopsis = fields.Char('Sinopsis', help='Introduzca la sinopsis de la película')
     minutos = fields.Integer('Minutos', help='Introduzca la duración de la película en minutos')
     precio = fields.Float('Precio', required=True, help='Introzuca el precio a pagar para ver la película')
+    cartel = fields.Image('Cartel', max_width=100, max_height=100)
